@@ -1,0 +1,329 @@
+:root {
+    --main-title-color: #FFFFFF;
+    --second-title-color: #212121;
+    --third-title-color: #212121;
+    --fourth-title-color: #212121;
+    --main-text-color: #757575;
+    --second-text-color: #757575;
+    --main-btn-color: #FFFFFF;
+    --second-btn-color: #212121;
+    --header-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #2F303A;
+    --third-text-color: rgba(255, 255, 255, 0.6);
+    --second-accent-color: #188CE8;
+    --main-background-color: #f5f4fa;
+}
+    
+
+body {
+font-family: "Roboto", sans-serif;
+color: var(--main-text-color);
+background-color:var(--main-background-color);
+font-size: 14px;
+letter-spacing: 0.03em ;
+
+    }
+
+    .list {
+        list-style: none;
+    }
+
+    .link {
+        text-decoration: none;
+
+    }
+
+    .visually-hidden {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+    }
+
+    /* -----------------------HEADER--------------------- */
+
+    .header{
+        background-color: var(--main-title-color);
+    }
+
+    
+    
+    .web-logo {
+        font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+
+
+    }
+    
+    .logo-studio{
+
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--header-text-color);
+
+
+    }
+    
+    
+    .header-link {
+        font-weight: 500;
+        font-style: normal;
+font-size: 14px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+color:var(--header-text-color) ;
+    }
+
+    .header-link:hover,
+    .header-link:focus {
+        color: var(--accent-color);
+    }
+  
+    .header-tel {
+        font-style: normal;
+        font-weight: 500;
+font-size: 14px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+    }
+
+    .header-tel:hover,
+    .header-tel:focus {
+        color: var(--accent-color);
+    }
+
+
+    .header-mailto {
+        font-style: normal;
+        font-weight: 500;
+font-size: 14px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+    }
+
+    .header-mailto:hover,
+    .header-mailto:focus {
+        color: var(--accent-color);
+    }
+    
+    /* -----------------------HERO--------------------- */
+    .hero{
+        background-color: var(--background-color) ;
+    }
+    .hero-title {
+        
+        font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--main-title-color);
+}
+
+.hero-btn {
+    cursor: pointer;
+    font-family: inherit;
+    background: var(--accent-color);
+    border: 1px solid transparent;
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+color: var(--main-btn-color);
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color:var(--second-accent-color);
+}
+
+/* -------------------SPECIFICITIES------------------------- */
+
+.specificities {
+    background-color: var(--main-title-color);
+}
+
+.specificities-title{
+    font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+color:var(--second-title-color)
+}
+
+.specificities-text{
+
+    line-height: 1.71;
+color: var(--second-text-color);
+}
+
+/* -------------------ABOUT------------------------- */
+
+.about{
+    background-color: var(--main-title-color);
+}
+.about-title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+color: var(--fourth-title-color);
+
+
+}
+
+/* -------------------TEAM------------------------- */
+.team{
+    background-color: var(--main-background-color)
+}
+.team-title{
+
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+color: var(--fourth-title-color);
+
+}
+
+.team-item-title{
+
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+color: var(--fourth-title-color);
+}
+
+.team-item-text{
+
+   
+font-size: 16px;
+line-height: 1.18;
+color: var(--second-text-color);
+}
+
+/* -------------------FOOTER------------------------- */
+.footer{
+    background-color: var(--background-color);
+
+    
+}
+
+.web-logo-footer{
+
+    font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.logo-studio-footer{
+    font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+
+
+.contacts-mailto{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
+}
+
+.contacts-mailto:hover,
+.contacts-mailto:focus{
+    color: var(--main-title-color)
+}
+
+.contacts-tel{
+    font-style: normal;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--main-text-color)
+}
+
+.contacts-tel:hover,
+.contacts-tel:focus{
+    color: var(--main-title-color)
+}
+
+.contacts-item-adress{
+    font-style: normal;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--main-text-color)
+}
+
+.contacts-item-adress:hover,
+.contacts-item-adress:focus{
+    color: var(--main-title-color)
+}
+
+
+/* -------------------PORTFOLIO------------------------- */
+
+.portfolio{
+    background-color: var(--main-title-color);
+}
+
+
+.portfolio-btn {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    border: 1px solid transparent;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--second-btn-color);
+
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--accent-color);
+    color: var(--main-title-color);
+}
+
+.portfolio-title{
+
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--third-title-color);
+
+}
+
+.portfolio-text{
+    
+font-size: 16px;
+line-height: 2;
+color: var(--second-text-color);
+}
