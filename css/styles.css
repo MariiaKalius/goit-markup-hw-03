@@ -107,8 +107,8 @@ color: var(--accent-color);
 
     .header-logo {
        
-        margin-left: 215px;
-        margin-right: 93px;
+        
+        margin-right: 95px;
 
     }
 
@@ -145,9 +145,14 @@ color:var(--header-text-color) ;
     }
 
 .header-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
+.header-contacts-list{
+        display: flex;
+        margin-left: auto;
+
+    }
 
 
 
@@ -158,6 +163,7 @@ font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
+margin-right: 215px;
     }
 
     .header-tel:hover,
