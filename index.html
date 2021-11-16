@@ -17,8 +17,7 @@
     <header class="header">
       <div class="container header-container">
       <nav class="header-navigation">
-        <a class="link web-logo" href="./index.html">
-          Web <span class="logo-studio">Studio</span>
+        <a class="link web-logo" href="./index.html">Web<span class="logo-studio">Studio</span>
         </a>
 
         <ul class="header-list list">
@@ -37,12 +36,12 @@
       
 
       <ul class="header-contacts-list list">
-        <li class="header-item">
+        <li class="header-contacts-item">
           <a class="header-mailto link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li class="header-item">
+        <li class="header-contacts-item">
           <a class="header-tel link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
@@ -50,14 +49,20 @@
       </ul>
     </div>
     </header>
+   
 
-    <section class="hero">
-      <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-      <button class="hero-btn" type="button">Заказать услугу</button>
-    </section>
     <main>
+    <section class="hero">
+      <div class="container hero-container">
+      <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1></div>
+      <div class="hero-container-btn">
+      <button class="hero-btn" type="button">Заказать услугу</button>
+      </div>
+    </section>
+    
       <section class="specificities">
-        <h2 class="visually-hidden">Особенности</h2>
+        <div class="container specificities-container">
+        <!-- <h2 class="visually-hidden">Особенности</h2> -->
         <ul class="specificities-list list">
           <li class="specificities-item">
             <h3 class="specificities-title">Внимание к деталям</h3>
@@ -67,7 +72,7 @@
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="specificities-item">
             <h3 class="specificities-title">Пунктуальность</h3>
 
             <p class="specificities-text">
@@ -91,8 +96,10 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section class="about">
+        <div class=" container about-container">
         <h2 class="about-title">Чем мы занимаемся</h2>
         <ul class="about-list list">
           <li class="about-item">
@@ -124,6 +131,7 @@
       </section>
 
       <section class="team">
+        <div class="container team-container">
         <h2 class="team-title">Наша Команда</h2>
         <ul class="team-list list">
           <li class="team-item">
@@ -133,8 +141,9 @@
               width="270"
               height="260"
             />
-            <h3 class="team-item-title">Игорь Демьяненко</h3>
-            <p class="team-item-text" lang="en">Product Designer</p>
+            <div class="team-card-img">
+              <h3 class="team-item-title">Игорь Демьяненко</h3>
+            <p class="team-item-text" lang="en">Product Designer</p></div>
           </li>
           <li class="team-item">
             <img
@@ -143,8 +152,9 @@
               width="270"
               height="260"
             />
-            <h3 class="team-item-title">Ольга Репина</h3>
-            <p class="team-item-text" lang="en">Frontend Developer</p>
+            <div class="team-card-img">
+              <h3 class="team-item-title">Ольга Репина</h3>
+            <p class="team-item-text" lang="en">Frontend Developer</p></div>
           </li>
 
           <li class="team-item">
@@ -154,8 +164,9 @@
               width="270"
               height="260"
             />
-            <h3 class="team-item-title">Николай Тарасов</h3>
-            <p class="team-item-text" lang="en">Marketing</p>
+            <div class="team-card-img">
+              <h3 class="team-item-title">Николай Тарасов</h3>
+            <p class="team-item-text" lang="en">Marketing</p></div>
           </li>
           <li class="team-item">
             <img
@@ -164,15 +175,18 @@
               width="270"
               height="260"
             />
-            <h3 class="team-item-title">Михаил Ермаков</h3>
-            <p class="team-item-text" lang="en">UI Designer</p>
+            <div class="team-card-img">
+              <h3 class="team-item-title">Михаил Ермаков</h3>
+            <p class="team-item-text" lang="en">UI Designer</p></div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container footer-container">
       <a class="link web-logo-footer" href="/">
-        Web <span class="logo-studio-footer">Studio</span>
+        Web<span class="logo-studio-footer">Studio</span>
       </a>
       <address class="contacts-address">
         <ul class="contacts-list list">
@@ -189,6 +203,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
