@@ -230,7 +230,7 @@ body {
 .specificities {
   background-color: var(--main-title-color);
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom:0;
 }
 
 .specificities-container {
